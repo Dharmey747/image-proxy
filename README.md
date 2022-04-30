@@ -8,3 +8,4 @@ Bypass CDNs' request blocks on image endpoints by using this program to proxy th
 - Install the [Mux](https://github.com/gorilla/mux) module to get a server up and running via `go get`.
 - Start the server by running the `go run .` command.
 - If you'd wish to create a compiled binary of this program, you can do so by running the `go build .` command.
+- Once the program starts, head over to `http://localhost/proxy?url=URL` to ping the server and proxy the endpoint.
